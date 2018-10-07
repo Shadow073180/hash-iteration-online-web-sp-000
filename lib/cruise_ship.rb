@@ -9,7 +9,8 @@ suite_e: "Crumpet the Elf"
 def select_winner(passengers)
   new = []
   passengers.each do |x, y|
-  new << y
+    if suite_a: && y.start_with("A")
+      y = winner
+    end
   end
-  return new[0]
 end
