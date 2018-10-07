@@ -7,6 +7,6 @@ suite_e: "Crumpet the Elf"
 }
 
 def select_winner(passengers)
-  passengers["suite_a"]
+  return passengers["suite_a"]
 
 end
