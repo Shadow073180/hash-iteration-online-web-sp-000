@@ -7,7 +7,9 @@ suite_e: "Crumpet the Elf"
 }
 
 def select_winner(passengers)
-  winner = passengers["suite_a"]
-  yield winner
+  new = []
+  passengers.each do |x, y|
+  new << y
+  end
 
 end
