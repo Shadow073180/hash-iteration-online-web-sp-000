@@ -11,5 +11,5 @@ def select_winner(passengers)
   passengers.each do |x, y|
   new << y
   end
-
+  return new[0]
 end
