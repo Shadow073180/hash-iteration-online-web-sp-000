@@ -1,6 +1,6 @@
 birthday_kids = {
-  "Timmy" => 9, 
-  "Sarah" => 6, 
+  "Timmy" => 9,
+  "Sarah" => 6,
   "Amanda" => 27
 }
 
@@ -8,5 +8,3 @@ def happy_birthday(birthday_kids)
   birthday_kids.each do |x, y|
     puts "Happy birthday #{x}. You are now #{y} years old."
 end
-
-
